@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Send, BookOpen, Brain, Scale, Heart, Loader2 } from 'lucide-react';
 import { apiService } from '@/lib/api';
-import { ChatMessage, AnswerResponse, IslamicMethod, MethodInfo } from '@/types';
+import { ChatMessage, IslamicMethod, MethodInfo } from '@/types';
 import { cn } from '@/lib/utils';
 
 export default function Home() {
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">Nahdlatul Ulama AI</h1>
-              <p className="text-sm text-gray-600">Asisten Fiqh Ahlussunnah wal Jama'ah</p>
+              <p className="text-sm text-gray-600">Asisten Fiqh Ahlussunnah wal Jama&apos;ah</p>
             </div>
           </div>
         </div>

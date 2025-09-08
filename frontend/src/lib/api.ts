@@ -42,8 +42,8 @@ class ApiService {
     return this.request<{ query: string; results: SearchResult[] }>(`/search?${params}`);
   }
 
-  async healthCheck(): Promise<{ status: string; [key: string]: any }> {
-    return this.request<{ status: string; [key: string]: any }>('/health');
+  async healthCheck(): Promise<{ status: string; [key: string]: unknown }> {
+    return this.request<{ status: string; [key: string]: unknown }>('/health');
   }
 }
 

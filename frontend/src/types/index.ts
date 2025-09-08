@@ -60,6 +60,6 @@ export interface SystemStats {
 export interface SearchResult {
   content: string;
   source: string;
-  metadata: Record<string, any>;
+  metadata: Record<string, unknown>;
   relevance_score: number;
 }
