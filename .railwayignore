@@ -30,5 +30,5 @@ logs/
 !requirements.txt
 !main.py
 !backend/
-!sql_chunks/
 !references/
+!sql_chunks/
