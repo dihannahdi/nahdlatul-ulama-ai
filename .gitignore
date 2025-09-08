@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+
+# Virtual environments
+my_venv/
+myenv/
+.anaconda/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.cache/
+*.cache
+faiss_vectors/
+.huggingface/
+chroma_db/
+*.pkl
+
+# Dependencies
+node_modules/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# SQL chunks (too many files for git)
+sql_chunks/
+*.sql
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+models/
+embeddings/
+
+# Railway
+.railway/
+
+# User directories (prevent scanning entire user folder)
+../../*
+../../../*
+../../../../*
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+AppData/

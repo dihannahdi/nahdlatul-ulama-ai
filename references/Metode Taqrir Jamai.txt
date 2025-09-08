@@ -1,0 +1,743 @@
+Munas Alim Ulama & Konbes NU 2017
+
+5. KONSEP TAQRIR JAMA’I
+PROSEDUR TAQRĪR JAMĀ’I DAN ILHĀQUL MASĀ’IL
+BI NADHĀIRIHĀ DI LINGKUNGAN NAHDLATUL
+ULAMA (NU)
+A. Taqrīr Jamā’i
+Dalam literatur fiqih atau ushul fiqih istilah taqrīr tidak
+populer. Maksud sesungguhnya dari istilah ini ialah tarjī, yaitu
+memilih atau mengunggulkan dalil yang lebih kuat di antara
+adillatul fiqh at-tafshīliyyah apabila terjadi ta’ārudl bainaladillatis
+syar’iyyah atau memilih/mengunggulkan pendapat yang lebih
+maslahat dan lebih kuat dalilnya jika terjadi ta’ārudl baina aqwālil
+fuqahā. Proses penetapan taqrīr/tarjī ini dilakukan secara jamā’i
+(kolektif) sehingga disebut dengan taqrīr jamā’i.
+Pertanyaannya adalah bagaimana cara kita menentukan
+suatu pendapat lebih maslahat dan lebih kuat dalilnya dari
+pendapat lain? Sebagaimana dikemukakan Imam Al-Ghazali,
+mashlahat adalah perlindungan terhadap tujuan-tujuan syara’
+yang terdiri atas hifdhud dīn (memelihara agama), hifdhun nafs
+(memelihara jiwa), hifdhul ‘aql (memelihara akal), hifdhun nasl
+(memelihara keturunan), dan hifdhul māl (memelihara harta).37
+Lima perlindungan tersebut merupakan induk mashlaha (‫أمهات‬
+‫ )املصاحل‬atau lebih dikenal dengan al-kulliyātul khams.38 Lima ajaran
+pokok itu kemudian bercabang pada ajaran al-`adalah (keadilan), alhurriyah (kemerdekaan), al-musawah (kesetaraan), dan al-karamatul
+insaniyah (kehormatan kemanusiaan), dan lain-lain.
+ِ َ‫ل‬
+37
+Imam Abu Hamid Al-Ghazali, Al-Mustashfa min ‘Ilmil Ushul, juz II, halaman 174.‫كنَّا نـَْع ِن‬
+ِ
+ِ
+ِ
+ِ
+‫ َوُه َو أَ ْن َْي َف َظ َعلَْي ِه ْم دينـَُه ْم‬:ٌ‫الَْل ِق خَْ َسة‬
+ْ ‫ود الش َّْرِع م ْن‬
+ُ‫ص‬
+ْ ‫بِالْ َم‬
+ُ ‫صود الش َّْرِع َوَم ْق‬
+ُ ‫صلَ َحة الْ ُم َحافَظَةَ َعلَى َم ْق‬
+ِ
+ِ
+ِ
+ِ
+ِ
+‫ال‬
+‫ول‬
+‫ُص‬
+‫ال‬
+‫ه‬
+‫ذ‬
+‫ه‬
+‫ظ‬
+‫ف‬
+‫ح‬
+‫ن‬
+‫م‬
+‫ض‬
+‫ت‬
+‫ـ‬
+‫ي‬
+‫ا‬
+‫م‬
+‫ل‬
+‫ك‬
+‫ف‬
+،
+‫م‬
+‫ل‬
+‫ا‬
+‫م‬
+‫و‬
+‫م‬
+‫ه‬
+‫ل‬
+‫س‬
+‫ن‬
+‫و‬
+‫م‬
+‫ه‬
+‫ل‬
+‫ق‬
+‫ع‬
+‫و‬
+‫م‬
+‫ه‬
+‫ت‬
+‫و‬
+‫ف‬
+‫ـ‬
+‫ي‬
+‫ا‬
+‫م‬
+‫ل‬
+‫ك‬
+‫و‬
+،
+‫ة‬
+‫ح‬
+‫ل‬
+‫ص‬
+‫م‬
+‫و‬
+‫ه‬
+‫ـ‬
+‫ف‬
+‫ة‬
+‫س‬
+‫م‬
+ْ
+ْ
+ُ
+َ
+َ
+َ
+َ
+َ
+ُ ِّ َُ َ ُّ ُ َ ٌ َ ْ َ َ َُ َ ْ َ ُ
+َ ْ ُ َّ َ ََ َ ُّ َ ْ ُ َ َ ْ ُ ْ َ َ ْ ُ ْ َ َ ْ ُ ‫َونـَْف َس‬
+ِ
+ِ
+‫صلَ َح ٌة‬
+‫م‬
+‫ا‬
+‫ه‬
+‫ع‬
+‫ـ‬
+‫ف‬
+‫د‬
+‫و‬
+‫ة‬
+‫د‬
+‫س‬
+‫ف‬
+‫م‬
+‫و‬
+‫ه‬
+‫ـ‬
+‫ف‬
+‫ول‬
+‫ُص‬
+‫ال‬
+‫ه‬
+‫ذ‬
+‫ه‬.
+ْ
+َ
+ٌ
+ْ َ َ ُ ْ َ َ َ َ ْ َ َ َُ ُ
+َ
+38		
+Ibnu
+126.
+
+A’syur,
+
+Nadhariyyatul
+
+Maqashid
+
+‘indal
+
+Imamis
+
+Syathibi,
+
+halaman
+
+،‫ حفظ الدين‬:‫ ثبت باالستقراء أهنا مخسة هي‬،‫ أو املصاحل الضرورية‬،‫واملقاصد الضرورية‬
+‫ وهي اليت جاء حفظها يف كل ملة‬،‫ وحفظ العقل‬،‫ وحفظ املال‬،‫ وحفظ النسل‬،‫وحفظ النفس‬
+~73~
+
+Munas Alim Ulama & Konbes NU 2017
+
+Sebagaimana umum diketahui, maslahat memiliki tiga
+tingkatan; pertama, mashlahah dlarūriyyah, kedua, mashlahah
+hājiyyah, dan ketiga, mashlahah tahsīniyyah. Yang dimaksud
+dengan mashlahat dalam pertanyaan yang diajukan di atas tentu
+bukan maslahat yang diabaikan oleh syāri’ (mashlahatul mulghāh)
+melainkan maslahat yang diapresiasi oleh syāri’ (mashlahatul
+mu’tabarah) melalui penegasan nash secara khusus, atau maslahat
+yang tidak memiliki acuan nash secara khusus baik yang
+mengafirmasikan maupun yang mengabaikannya (mashlahatul
+mursalah). Suatu maslahat dikatakan lebih kuat apabila dampak
+perlindungannya terhadap tujuan syari’ baik secara kualitas
+maupun kuantitas lebih dari yang lain.
+Dari sisi lain maslahat terbagi atas dua kategori, yaitu
+mashlahah ‘āmmah dan mashlahah khashshāh. Dalam kaitan ini, jika
+terjadi benturan antara mashlahah ‘āmmah dan mashlahah khashshāh,
+maka yang dimenangkan adalah mashlahah ‘āmmah. Misalnya,
+pendapat si A mendatangkan kemaslahatan sekecamatan,
+sementara pendapat si B mendatangkan maslahat sekabupaten,
+tentu kita memilih dan mengunggulkan maslahat yang cakupannya
+lebih luas.
+Seperti dikemukakan di paragraf awal, taqrīr bukan hanya
+dilihat dari aspek kemaslahatan melainkan juga didasarkan pada
+kuat dan tidaknya dalil yang menjadi acuan mujtahid atau ulama.
+Yang dimaksud dengan dalil adalah Al-Quran dan As-Sunah
+sebagai dalil primer, al-ijmā’, al-qiyās, maslahatul mursalah, syar’u
+man qablanā, mazhabus shahābi, al-istisān, al-istishāb, al-‘urf, dan
+saddudz dzarī’ah sebagai dalil sekunder.
+Dalil-dalil tersebut baik secara ijmāli maupun secara tafshīli
+memiliki kekuatan yang berbeda antara satu dan yang lain.
+Misalnya, ada dalīl qathi’i dan dalīl dhanni, dalil manthūq dan dalil
+mafhūm, manthūq sharī dan manthūq ghairu sharī. Itu sebabnya jika
+terjadi ta’ārudh bainal aqwāl wal awjuh, maka:
+~74~
+
+Munas Alim Ulama & Konbes NU 2017
+
+1. Pendapat (qaul atau wajah) yang didasarkan pada dalil
+qath’i lebih kuat karena itu lebih dipilih dari pendapat yang
+didasarkan pada dalil dhanni.
+2. Pendapat yang didasarkan pada ‘ibāratun nash lebih kuat
+karena itu lebih dipilih daripada pendapat yang didasarkan
+pada isyāratun nash dan iqtidhā’un nash.
+3. Pendapat yang diambil dari manthūq secara umum
+dimenangkan atas pendapat yang diambil dari mafhūm.
+4. Pendapatyang diperoleh dari mantūq sharī dimenangkan atas
+pendapat yang diambildarimantūq ghairu sharī;pendapat
+yang merupakan makna hakiki dari dalil pada dasarnya
+lebih didahulukan dari pendapat yang merupakan makna
+lafadhmajazi dari dalil.
+5. Pendapat yang didasarkan pada lafadh khāsh lebih
+didahulukan daripada pendapat yang didasarkan pada
+dalil dengan lafadh ‘ām.
+6. Pendapat yang diambil dari hadist yang perawinya fakih
+dimenangkan atas pendapat yang diambil dari hadist yang
+perawinya bukan seorang fakih; pendapat yang didasarkan
+pada hadits dalam Shahih Al-Buhkari dan Muslim lebih
+didahulukan dari pendapat yang didasarkan pada hadits
+Sunan Abi Dawud, At-Tirmidzi, Nasa’i, misalnya.
+7. Pendapat yang mewujudkan mashlahah dlarūriyyah
+dimenangkan atas pendapat yang mewujudkan mashlah
+hājiyyah; selanjutnya pendapat yang mewujudkan mashlahah
+hājiyyah dimenangkan atas pendapat yang mengandung
+mashlahah tasīniyyah.
+Pertanyaannya, jika pendapat yang dipilih didasarkan
+pada maslahat dan tidaknya pendapat itu, maka siapa yang
+menentukan bahwa suatu pendapat lebih maslahat dari yang lain?
+Jika kemaslahatan suatu pendapat didasarkan pada hadits Nabi
+SAW ‫ما رآه املسلمون حسنا فهو عند اهلل حسن‬, maka pertanyaannya umat Islam
+yang mana? Bagaimana jika terjadi perselisihan; seorang Muslim
+melihat maslahat pada satu pendapat, sementara yang lain tak
+melihatnya?
+~75~
+
+Munas Alim Ulama & Konbes NU 2017
+
+Hadist di atas dalam beberapa literarur qawaid fiqih adalah
+acuan kaidah al-‘ādah muhakkamah dan acuan al-‘urf dalam ushul
+fiqih, bukan sebagai acuan mashlaah.39 Secara umum ‘urf yang bisa
+diterima adalah ‘urf yang tidak bertentangan dengan nash dan
+‘urf yang bisa memanifestasikan kaidah-kaidah mashlahah sesuai
+dengan urutannya di atas. Istilah ‫املسلمون‬maknanya terbatas (‫عام يراد به‬
+‫ )اخلصوص‬dengan pengertian bahwa partikel “al” dalam lafal tersebut
+mengandung makna ‫للعهد الذهىن‬yang memiliki pengertian al-‘ulamā’
+sehingga parameter baik dan buruk yang dimaksud dalam hadist
+tersebut mengacu pada pandangan `ulama’ul ummah.
+Dengan demikian qaul yang sesuai dengan kesepakatan
+ulama (ijmā‘) dan atau jumhur ulama dimenangkan atas pendapat
+minoritas dengan catatan pendapat jumhur tersebut sejalan
+dengan maqhāshidus syarī‘ah. Apabila pendapat jumhur tersebut
+didasarkan pada suatu ‘urf yang kondisinya berbeda jauh dengan
+‘urf yang ada saat ini, maka sangat dimungkinkan terjadinya
+perubahan hukum akibat perubahan dasarnya atau ‘urf-nya. Di
+sinilah letak penggunaan kaidah ‫ال ينكر تغري األحكام بتغري األزمان واألمكنة والظروف‬
+‫واألحوال‬.
+Pertanyaan selanjutnya, jika ada dua pendapat; yang satu
+lebih kuat dari sisi dalil tapi lemah dari segi maslahat, sedangkan
+pendapat lain lebih kuat dari sisi maslahat tapi lemah dari
+segi dalil, maka pendapat manakah yang harus didahulukan?
+Pertanyan ini mengasumsikan terjadinya ta’ārudl antara dalil
+nash dan mashlahatul mu‘tabarah yang menjadi acuan qiyās, dan
+mashlahatul mursalah yang menjadi salah satu acuan istihsān dan
+saddud dzarī‘ah. Jika yang dimaksud adalah mashlahatul mu’tabarah,
+maka pada umumnya ulama memenangkan nash atas qiyās
+sekalipun nash itu berupa hadits ahad kecuali Imam Abu Hanifah
+yang memenangkan qiyas bila perawi hadits tersebut tidak fakih.
+39
+
+Jalaluddin Al-Suyuthi, Al-Asybah wanNadhair, halaman 89.
+
+ِ ‫الْ َق‬
+ِ
+‫صلَّى اللَّهُ َعلَْي ِه َو َسلَّ َم َما َرآهُ الْ ُم ْسلِ ُمو َن َح َسنًا‬
+َ َ‫ ق‬. ٌ‫الس ِاد َسةُ الْ َع َادةُ ُمَ َّك َمة‬
+َّ ُ‫اع َدة‬
+ْ ‫ أ‬:‫ال الْ َقاضي‬
+َ ُ‫َصلُ َها قـَْولُه‬
+ِ
+ِ
+َّ
+‫فـَُه َو عْن َد الله َح َس ٌن‬
+~76~
+
+Munas Alim Ulama & Konbes NU 2017
+
+Tetapi jika ta’ārudl terjadi antara nash dan mashlahatul
+mursalah, maka tentu yang dimenangkan adalah nash, terkecuali
+jika pengamalan nash itu menimbulkan mafsadah yang lebih besar.
+Misalnya, soal penarikan pajak dari orang yang kaya. Sekiranya
+didasarkan pada nash hadits ‫ال حيل مال امرئ إال بطيب نفسمنه‬,40 maka
+hukumnya tidak boleh karena pada umumnya penarikan pajak
+dilakukan dengan paksa. Tetapi, kalau penarikan pajak itu tidak
+dilakukan—tentu dengan syarat-syarat khusus—, maka dapat
+dipastikan ia mendatangkan mafsadat yang lebih besar, yaitu
+negara akan lumpuh dan akan terjadi kekacauan.
+Dengan demikian, maka jawaban pertanyaan tersebut secara
+global sebagai berikut. Yaitu, qaul yang dalilnya lebih kuat tapi dari
+segi maslahat lemah dalam kondisi tertentu bisa dimenangkan
+atas qaul yang dalilnya lemah tapi kuat dari segi maslahat. Dalam
+kondisi yang lain bisa terjadi sebaliknya. Jika kondisinya cukup
+dilematis, maka kita bisa mengunakan teori multidimensi (‫نظريةتعدد‬
+‫)االبعاد‬, yaitu teori yang didasarkan pada berbagai dimensi baik
+dimensi ruang maupun dimensi waktu. Dengan mengunakan
+teori ini, maka yang dianggap ta’ārudl sesungguhnya tidak ta’ārudl
+karena ta’ārudl secara global ada dua, yaitu ‫التعارض يف نفس االمر‬dan ‫التعارض‬
+‫يف ذهن اجملتهد‬.
+Dengan mengembangkan teori nadhariyyatu ta’addudil ab’ād
+jelas bahwa ketika terjadi ta’ārudl bainal aqwāl atau ta’ārudl bainal
+awjuh, maka yang pertama harus dilakukan adalah al-jam’u wat
+taufīq, yaitu mengkompromikan pendapat yang berbeda-beda
+tersebut. Satu pendapat misalnya relevan diterapkan dalam situasi
+dan kondisi A, sementara pendapat lain relevan diterapkan dalam
+situasi dan kondisi B. Dengan perkataan lain, di dalam taqrīr juga
+berlaku satu ketentuan, yaitu mengamalkan dua pendapat yang
+bertentangan lebih utama daripada mengabaikan dua pendapat itu.
+Namun, jika al-jam’u wat taufīq tak bisa dilakukan, maka
+yang dipilih adalah pendapat yang disepakati Imam Nawawi
+40
+
+Abu Bakar Al-Baihaqi, Al-Sunanul Kubrā, juz VI, halaman 166.
+
+~77~
+
+Munas Alim Ulama & Konbes NU 2017
+
+dan Imam Rafi’i. Selanjutnya jika Imam Nawawi dan Imam Rafi’i
+mengemukakan pendapat berbeda tentang satu perkara, maka
+yang dipilih adalah pendapat yang diajukan Imam Nawawi.
+Pilihan pada Imam Nawawi tak hanya didasarkan pada argumen
+karena Imam Nawawi41 datang lebih belakangan dari Imam Rafi‘i42
+melainkan karena Imam Nawawi telah disepakati sebagai ‫الشافعى‬
+‫الثاين‬, ‫حمرر املذهب‬. Bahkan, Imam Nawawi juga mendapat julukan ‫فقيه احملدثني‬
+‫وحمدث الفقهاء‬.
+Bahwa pendapat yang disepakati Imam Nawawi dan Imam
+Rafi’i didahulukan dari pendapat lain, dan pendapat Imam
+Nawawi didahulukan dari pendapat Imam Rafi’i, itu sudah
+disepakati dan kita terima. Namun, di pihak lain kita juga menerima
+kaidah bahwa perubahan fatwa bisa terjadi karena perubahan
+situasi, kondisi, lokasi, dan tradisi (‫)تغري الفتوى بتغري االزمنة واالمكنة واالحوال والعوائد‬.
+Bagaimana menghadapi dua kaidah itu? Secara bijaksana kita
+bisa mengkompromikandua kaidah tersebut: bahwa prinsipnya
+kaidah pertama (yakni mengikuti pendapat Imam Nawawi dan
+Imam Rafi’i)selalu kita jadikan pegangan dalam tataran ‫ختريج املناط‬,
+sementara dalam tataran ‫حتقيق املناط‬kita bisa beralih pada kaidah kedua
+jika karena satu dan lain hal tak memungkinkan menerapkan
+kaidah pertama.
+B. Ilhaqul Masail Bi Nadhairiha
+Ilhāq ialah menggali hukum syar’i ‘amali dengan cara
+menyamakan masalah yang tidak ada nash hukumnya dengan
+masalah yang ada nash hukumnya karena memiliki makna
+41
+
+42
+
+Nama lengkapnya, Abu Zakaria Muhyiddin bin Syaraf An-Nawawi Ad-Dimasqi. Lahir
+di Nawa dekat Kota Damaskus pada 631 H dan wafat pada 676 H. Karyanya dalam
+bidang fiqih di antaranya adalah Minhajut Thalibin wa Umdatul Muftin fi Fiqhil
+Imamis Syafi‘i, Raudhatut Thalibin, Al-Majmu’ Syarhul Muhadzdab, Matnul Idlah
+filManasik.
+Nama lengkapnya, Imamuddin Abul Qasim Abdul Karim bin Muhammad bin ‘Abdul
+Karim bin Al-Fadhl bin Al-Hasan Ar-Rafi’i. Ia wafat pada 623 H. Karyanya dalam fiqih
+yang terkenal adalah Al-Muharrar.
+
+~78~
+
+Munas Alim Ulama & Konbes NU 2017
+
+(substansi) yang sama. Yang dimaksud nash tersebut adalah nash
+imam mujtahid. Masalah yang sudah ada nashnya ini disebut ‫ملحق‬
+‫به‬. Sedangkan masalah yang tidak ada nashnya disebut dengan
+‫ملحق‬dan makna (substansi) yang menjadi landasan penyamaan
+masalah tersebut disebut ‫وجه االحلاق‬.
+Suatu masalah bisa disebut sama dengan masalah yang
+lain apabila keduanya bisa diletakkan di bawah kaidah yang
+sama yang telah diketahui manāth atau makna kaidahnya, baik
+kaidah itu berupa qaidah fiqhiyyah maupun qaidah ushuliyyah.
+Qaidah fiqhiyyah merupakan inti dan kesimpulan singkat dari
+beberapa aqwāl mujtahid/furū‘ fiqhiyyah yang mutasyābihat. Dengan
+demikian qawāid fiqhiyyah lahir setelah furū‘ fiqhiyyah. Sementara
+furū‘ fiqhiyyah lahir dari dalil-dalil fiqhiyyah dengan menggunakan
+manhāj qawāid ushūliyyah.
+Pembahasan tentang ilhaq sesungguhnya tak terpisahkan dari
+pembahasan takhrīj. Hakikat takhrīj dapat kita ketahui dari ‘ibārah
+Imam Az-Zarkasyi berikut:
+
+ِ
+ِ ِ ‫الشار‬
+َّ ‫ص‬
+‫ص‬
+َّ َ‫ص ال ُْم ْجتَ ِه ِد َك َما ل َْو ن‬
+ِّ َ‫ِّسبَ ِة إلَى ن‬
+ِّ َ‫اس يـُْع َم ُل بِ ِه قَط ًْعا ِع ْن َدنَا في ن‬
+َ‫الْقي‬
+ْ ‫ِع أ ََّما بالن‬
+ُ
+ِ ُ ‫ْم فـهل تُستـ ْنب‬
+ِ َ‫الرافِ ِع ُّي في كِت‬
+ِْ ‫ْم قال‬
+‫ض ِاء‬
+َّ ‫ام‬
+َ ‫اب الْ َق‬
+ُ ‫ال َم‬
+ُ ‫ط الْعلَّةُ َويـَُعدَّى ال‬
+َ َ ْ ْ ََ ٍ ‫على ُحك‬
+ُ ‫ْحك‬
+ِْ ‫َح َكى َوالِ ِدي عن‬
+ِ ‫ص‬
+َّ ‫وص‬
+‫ِع‬
+‫ال َم ِام ُم َح َّم ِد بْ ِن يَ ْح‬
+ِ ‫الشار‬
+ُ ُ‫يى ال َْم ْن َع في ذلك َوإِنَّ َما َج َاز في ن‬
+َ
+ِ ِ ‫اس و ْالَ ْشبه بِصنِي ِع ْالَصح‬
+ِ
+ِ
+ِ
+‫ْم‬
+ُ ‫اب خ َلفُهُ أ ََل تـََر‬
+َ ُ َ َ ِ َ‫لَنَّا تـُعُبِّ ْدنَا َوأُم ْرنَا بِالْقي‬
+ُ ‫اه ْم يـَنـُْقلُو َن ال‬
+َْ
+َ ‫ْحك‬
+ِ
+ِ َّ ‫ثُ َّم ي ْختَلِ ُفو َن في أ‬
+ِ ‫ْحك‬
+‫وع ِعلَّتِ ِه َو َه َذا‬
+ِ ‫ْم في فـُُر‬
+ُ ‫َن الْعلَّةَ َك َذا َو َك َذا َو ُكلٌّ منـْ ُه َما ُمطَّ ِر ُد ال‬
+َ
+43 ِ
+‫يج‬
+َ َ‫َك َما ق‬
+ِ ‫ال َو ُه َو ال ُْم َعبـَُّر عنه بِالتَّ ْخر‬
+
+Dari ‘ibārah tersebut dapat kita ketahui bahwa takhrīj
+merupakan bagian dari qiyas. Imam Ibnus Shalah berkata:
+
+‫صا‬
+ًّ َ‫ص ُم َعيَّ ٍن ِِل َم ِام ِه فِي َم ْسأَل ٍَة ُم َعيـَّنَ ٍة َوتَ َارةً َليِ ِج ُد ِِل َم ِام ِه ن‬
+ٍّ َ‫يجهُ تَ َارةً يَ ُكو ُن ِم ْن ن‬
+ُ ‫اَ َّلرابِ ُع تَ ْخ ِر‬
+ِ ‫ُصولِ ِه بِأَ ْن يَ ِج َد َدلِ ًيل ِم ْن ِج ْن‬
+‫ج ِم ْنهُ فـَيُ َخ َّر‬
+ُ‫س َما يَ ْحتَ ُّج بِ ِه إِ َم ُامه‬
+ُ ‫ج َعلَى ِوفْ ِق أ‬
+ُ
+ُ ‫ُم َعيـَّنًا يُ َخ َّر‬
+44 ِ
+ِ
+ِ
+ِ
+.‫َو َعلَى َش ْر ِطه فـَيـُْفتي ب ُم ْو َجبه‬
+43		
+Az-Zarkasyi, Al-Bahrul Muhith fi Ushulil Fiqh, juz VIII, halaman 39.
+44
+Ibnus Shalah, Adabul Mufti wal Mustafti, halaman 97.
+
+~79~
+
+Munas Alim Ulama & Konbes NU 2017
+
+Dari ‘ibarah kitab tersebut disimpulkan bahwa takhrīj ada
+dua. Pertama, ‫ختريج الفروع على الفروع‬yaitu menggali hukum dari nash-nash
+imam (‫)نصوص اإلمام‬. Kedua, ‫ختريج الفروع على االصول‬yaitu menggali hukum dari
+qawaidushuliyyah yang dijadikan hujah oleh imam. Imam Tajuddin
+As-Subki dalam kitab Jam’ul Jawami mengemukakan:
+
+ِ ِ
+ِ ‫ف لِلْمجتَ ِه ِد قـو ٌل فِي مسأَل ٍَة ل‬
+‫َي‬
+ُ ‫َك ْن) يـُْع َر‬
+ْ ُ ْ ‫َم يـُْع َر‬
+ْ ‫ف لَهُ قـَْو ٌل في (نَظي ِر َها فـَُه َو) أ‬
+َْ
+ْ ‫(وإِ ْن ل‬
+َْ
+َ
+ِ‫ الْم َخ َّرج فِيها َعلَى ْالَص ِّح) أَي َخ َّرجهُ ْالَصحاب ف‬:ُ‫قـولُهُ فِي نَ ِظي ِرها (قـولُه‬
+‫ْحاقًا‬
+‫ل‬
+‫إ‬
+‫ا‬
+‫يه‬
+َ ُ ُ
+َ
+َ َ ُ َْ
+َ ْ
+َْ َ
+َْ
+45
+.‫ل ََها بِنَ ِظي ِر َها‬
+ِ
+ِ ِ ‫(من تَ ْخ ِري ِج الْوجو ِه) ِهي ْالَح َك‬
+ِ ‫ص ْو‬
+‫ َو َم ْعنَى تَ ْخ ِريْ ِح‬،‫ص إِ َم ِامه‬
+ُ ُ‫ام الَّتي يـُْبديـَْها َعلَى ن‬
+ُ ْ َ
+ْ ُ ُ ْ ْ ُ‫قـَْولُه‬
+ِ
+ِ ‫ُّص‬
+‫ص َعلَ ِيه لِ ُو ُج ْو ِد‬
+‫استِْنبَاطُها ِم ْنها َكأَ ْن يَِق ْي‬
+َّ َ‫ت َع ْنهُ َعلى َما ن‬
+َ ‫س َما َس َك‬
+ْ ‫وص‬
+ُ ‫ال ُْو ُج ْوه َعلى الن‬
+َ
+‫استـَْنبَطَهُ ُه َو‬
+َّ َ‫ت َع ْنهُ َس َواءٌ ن‬
+َّ َ‫َم ْعنَى َما ن‬
+َ ِ‫ص إِ َم ُامهُ َعلى ذل‬
+َ ‫ص َعلَْيه فِ ْي َما َس َك‬
+ْ ‫ك ال َْم ْع ٍنى اَ ِو‬
+ِ
+ِ َ‫ت عموم ذَ َكره أَو ق‬
+ِ
+ِ
+ٍ‫اع َدة‬
+ِِ
+ِ
+َُ
+ُ ‫ه اَ ْو يَ ْستَ ْخر‬46‫م ْن َك َلم‬
+ُ ُ َ ‫ْم ال َْم ْس ُك ْوت َع ْنه م ْن ُد ُخوله تَ ْح‬
+َ ‫ِج ُحك‬
+.‫قـََّر َر َها‬
+
+Beberapa ‘ibārah di atas menggambarkan bahwa ilhāq hanya
+bisa dilakukan dalam rangka menyamakan masalah-masalah
+baru dengan masalah-masalah yang manshūshah (ada nash imam).
+Tetapi, ibarah Imam As-Suyuthi berikut:
+
+ِ
+ِ
+ِ
+َّ ‫صل اِ ْعلَ ْم أ‬
+،‫ بِ ِه يُطَّلَ ُع َعلَى َح َقائِ ِق ال ِْف ْق ِه َو َم َدا ِركه‬،‫يم‬
+ْ َ‫ف‬
+ٌ ‫َن فَ َّن ْالَ ْشبَاه َوالنَّظَائر فَ ٌّن َعظ‬
+ِ
+ِ
+ِ
+ِ
+ِ ‫اللْح‬
+،‫يج‬
+ِ ‫اق َوالتَّ ْخ ِر‬
+َ ‫است ْح‬
+ْ ‫َّر في فـَْه ِمه َو‬
+ْ ‫َو َمآخذه َوأ‬
+َ ِْ ‫ َويـُْقتَ َد ُر َعلَى‬،‫ضا ِره‬
+ُ ‫ َويـُتَ َمه‬،‫َس َرا ِره‬
+ٍ
+ِ
+ِ
+ِ
+ِ
+ِ
+ِ
+ِ ْ ‫َح َكام الْمسائل الَّتي ل َْيس‬
+‫ْح َوادث َوال َْوقَائع الَّتي َل تـَنـَْقضي‬
+ْ ‫َو َم ْع ِرفَة أ‬
+َ ‫ َوال‬،‫ورة‬
+َ ُ‫ت ب َم ْسط‬
+َ
+ََ
+47
+ِ
+ِ‫ ال ِْف ْقهُ م ْع ِرفَةُ النَّظَائ ِر‬:‫َصحابنَا‬
+َ َ‫ َول َه َذا ق‬،‫الز َمان‬
+َّ ‫علَى َم َم ِّر‬.
+َ
+َ ْ ‫ال بـَْعض أ‬
+َ
+
+Memberi peluang untuk meng-ilhāq masalah-masalah baru
+dengan masalah-masalah serupa yang ada dalam kitab ashāb,
+meskipun tidak ada nashshul imam.
+
+Dari sekian ‘ibārah tersebut juga dapat diketahui bahwa ‫إحلاق‬
+‫املسائل بنظريها‬merupakan salah satu mekanisme dari takhrīj. Contoh
+45
+Tajuddin As-Subki, Jam’ul Jawami’, juz II, halaman 403.
+46		
+Ahmad bin Qasim Al-‘Abbadi, Al-AyātulBayyināt ‘alā Syarḥi Jam‘ilJawāmi‘, juz IV,
+halaman 342-343.
+47
+Jalaluddin As-Suyuthi, Al-Asybāh wan Nadhā’ir, halaman 6.
+
+~80~
+
+Munas Alim Ulama & Konbes NU 2017
+
+dari‫ ختريج الفروع على الفروع‬/‫االحلاق‬yaitu: Pertama, apa hukum menaati
+aturan negara yang mewajibkan pencatatan akad nikah di KUA?
+Jawabnya: masalah ini sama dengan kewajiban menaati aturan
+negara yang melarang warganya merokok. Dalam kitab Nihāyatuz
+Zain dijelaskan sebagai berikut:
+
+ِ ‫ك ِلَنَّهُ اِ َذا أَمر بِو‬
+ٍ ‫ َواِ َذا بِ َم ْن ُد‬،ُ‫َك َد ُو ُجوبُه‬
+ٍ ‫اج‬
+َّ ‫ب تَأ‬
+‫وب‬
+‫َلواِنَّ َما َو َج‬
+ُ َ‫ب ْامتِث‬
+َ ِ‫ال أ َْم ِر ِه فِى ذل‬
+َ
+َ
+َ
+َ
+48
+ِ
+ِ
+ِ ‫آمةٌ َكتـَْر ِك ُش ْر‬
+.‫ب‬
+ٍ َ‫ َواِ ْن أ ََم َر بِ ُمب‬،‫ب‬
+َّ ‫صلَ َحةٌ َع‬
+ْ ‫اح فَِإ ْن َكا َن ف ْيه َم‬
+َ ‫ب الدُّخَّان َو َج‬
+َ ‫َو َج‬
+
+Kedua, mendirikan perusahaan yang diyakini mencemarkan
+lingkungan dilarang. Larangan ini di-ilhāq-kan pada kaidah fiqih,
+“Kerugian yang bersifat individual kadang dikorbankan untuk
+menghindarkan bahaya yang lebih besar.”49 Kaidahnya berbunyi
+demikian:
+
+.‫ام‬
+ِّ ‫اص لِ َدفْ ِع الض ََّر ِر ال َْع‬
+ُّ ‫يحمل الض ََّر ُر الْ َخ‬
+ُ
+
+Ketiga, Imam Malik berpendapat bahwa hukum mengambil
+upah untuk menjadi imam tarawih adalah makruh. Kemudian
+atas dasar takhrījatau ilāq pada pendapat tersebut, Ibnu Qasim,
+seorang ulama penganut Mazhab Maliki, berpendapat bahwa
+hukum mengambil upah untuk menjadi imam shalat fardlu
+adalah makruh, bahkan lebih makruh. Ilhāq ini didasarkan pada
+qaidahushūliyyah yang diakui oleh Imam Malik, yaitu mafhūm
+muwāfaqah.
+
+ِ َّ ‫يكْرهُ أَ ْخ ُذ ْالُجر ِة َعلَى‬
+ِ ‫ضا أ َْو نـَْف ًل َعلَى َم ْذ َه‬
+‫ب ال ُْم َد َّونَِة‬
+ً ‫َي َإم َامتِ َها ُم ْف َر َدةً فـَْر‬
+ْ ‫الص َلة أ‬
+َْ
+َ ُ
+50 ِ
+ِ ‫ابن الْ َق‬
+ً‫اس ِم َو ُه َو فِي ال َْمكْتُوبَِة ِع ْن ِدي أَ َش ُّد َك َراهيَة‬
+ُْ
+
+Keempat, apakah mobil yang direntalkan atau bangunan yang
+disewakan wajib dizakati? Jawabnya: wajib jika di-ilhaq-kan pada
+pendapat Imam Ahmad bin Hanbal yang mewajibkan zakat bagi
+barang perhiasan perempuan yang disewakan.
+48
+49
+50
+
+Muhammad Nawawi Al-Jawi, Nihāyatuz Zain, halaman 131.
+Al-Hariri Ibrahim Muhammad Mahmud, Al-Madkhal ilal Qawaidil Fiqhiyyah, halaman
+96.
+Al-Khurāsy, Syarḥ Mukhtashar Khalīl, juz I, halaman 236.
+
+~81~
+
+Munas Alim Ulama & Konbes NU 2017
+
+ِ ‫ وأُل‬.‫الز َك ِاة فِي حلِّ ِي النِّس ِاء اِ َذا اُو ِجر‬
+ِ ‫ام اَ ْح َم ُد َعلى ُو ُج‬
+َّ ‫وب‬
+‫ْح َق بِه ُك ُّل َم َال‬
+َّ َ‫ن‬
+ُ ‫اإلم‬
+ُ
+َ ‫ص‬
+َ َ ْ
+َ
+ِ
+ِ
+ِ
+ِ
+ِ
+ِ
+ِ
+ِ
+ِ
+َّ ‫ب‬
+.‫ َكال َْع َمائ ِر َو َسيَّ َارات النـَّْق ِل‬، ً‫ِّج َارة َولكنَّه يُف ْي ُد َماال‬
+َ ‫َم يـُتَّ َخ ْذ للت‬
+ْ ‫الز َكاةُ في َع ْينه َول‬
+ُ ‫تَج‬
+
+Penting dikemukakan bahwa para ahli fiqih berbeda pendapat
+tentang boleh tidaknya ilhaq dan takhrīj. Namun, Nahdhatul
+Ulama (NU) mengikuti pendapat ulama yang membolehkan ilhaq
+dan takhrīj seperti pendapat Imam Haramain51 dan Ibnu ‘Arafah.52
+C. Ilhaq dan Taqrir
+
+Apabila ‫ ملحق به‬tidak hanya terdiri atas satu pendapat ulama,
+maka sebelum dilakukan ilhaq, terlebih dahulu harus dilakukan
+taqrir secara jama‘i untuk memilih satu pendapat yang akan
+dijadikan ‫ملحق به‬.
+
+TIM PERUMUS BAHTSUL MASAIL
+AD-DINIYYAH AL-MAUDLU’IYYAH
+KH. Afifuddin Muhajir (Ketua)
+KH. Abdul Moqsith Ghazali (Sekretaris)
+KH. Subhan Ma’mun (Anggota)
+KH. Abdul Ghafur Maimun (Anggota)
+KH. Najib Bukhari (Anggota)
+KH. Mahbub Ma’afi (Anggota)
+KH. Mubibbul Aman (Anggota)
+KH. Sofiyullah (Anggota)
+51
+
+52
+
+Imamul Haramain, Ghiyatsul Umam fitTiyatsidDhulm, halaman 466.
+‫ وحصلنا على ظن غالب يف التحاق ما ال نص فيه يف املذهب الذي ينتحله‬،‫ ووجدنا فقيها دربا قياسا‬،‫والذي حيقق الغرض يف ذلك إذا عدمنا جمتهدا‬
+‫ فإحالة املستفتني على ذلك أوىل من تعرية وقائع عن التكاليف‬،‫باملنصوصات‬
+Al-Khaththab Ar-Ru’aini, Mawahibul Jalil fi Syarhi Mukhtashar Khalil, juz VI, halaman
+92.
+‫وقال ابن عرفة إثر نقله كالم ابن العريب (قلت) يرد كالمه؛ ألنه يؤدي إىل تعطيل األحكام؛ ألن الفرض عدم اجملتهد المتناع تولية املقلد مع وجوده فإذا‬
+‫كان حكم النازلة غري منصوص عليه ومل جيز للمقلد املوىل القياس على قول مقلده يف نازلة أخرى تعطلت األحكام‬
+
+~82~
+
+

@@ -1,0 +1,17 @@
+# Railway Backend Deployment Configuration
+
+# This file tells Railway how to deploy the FastAPI backend
+
+[build]
+# Build command for Railway
+builder = "NIXPACKS"
+
+[deploy]
+# Start command for the application
+startCommand = "uvicorn main:app --host 0.0.0.0 --port $PORT"
+
+# Health check endpoint
+healthcheckPath = "/health"
+
+# Restart policy
+restartPolicyType = "ON_FAILURE"

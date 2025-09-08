@@ -1,0 +1,10 @@
+{
+  "build": {
+    "buildCommand": "pip install --no-cache-dir -r requirements.txt"
+  },
+  "deploy": {
+    "startCommand": "python full_production_main.py",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 30
+  }
+}
