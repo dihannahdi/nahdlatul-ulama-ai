@@ -2,6 +2,8 @@
 # Exclude large cache files (let Railway build them)
 *.pkl
 backend/*.pkl
+chroma_db/
+frontend/
 
 # Exclude development files
 .git/
@@ -31,4 +33,4 @@ logs/
 !main.py
 !backend/
 !references/
-!sql_chunks/
+# NOTE: sql_chunks will be downloaded during Docker build

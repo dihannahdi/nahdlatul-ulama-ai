@@ -9,9 +9,10 @@ ENV PORT=8001
 # Create and set working directory
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies including git for sparse checkout
 RUN apt-get update && apt-get install -y \
     gcc \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better Docker layer caching
@@ -23,6 +24,9 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 # Copy application code
 COPY . .
+
+# Make start script executable
+RUN chmod +x start.sh
 
 # Create directory for cache files
 RUN mkdir -p /app/cache
