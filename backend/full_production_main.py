@@ -152,10 +152,13 @@ class FullProductionProcessor:
         print("🏭 Production Mode: Processing ALL 15,673+ documents...")
         start_time = time.time()
         
-        # Try to load from cache first
+        # Try to load from cache first (essential for Railway deployment)
         if os.path.exists(self.cache_file):
             try:
-                return await self._load_from_production_cache()
+                cached_docs = await self._load_from_production_cache()
+                if cached_docs:
+                    print(f"🎯 Loaded {len(cached_docs)} documents from cache!")
+                    return cached_docs
             except Exception as e:
                 print(f"Cache failed: {e}, rebuilding...")
         
@@ -167,17 +170,27 @@ class FullProductionProcessor:
         documents.extend(ref_docs)
         print(f"✅ Loaded {len(ref_docs)} reference documents")
         
-        # 2. Process ALL SQL files efficiently
+        # 2. Process ALL SQL files efficiently (if available)
         print("💾 Processing ALL SQL files...")
         sql_docs = await self._process_all_sql_files()
-        documents.extend(sql_docs)
-        print(f"✅ Loaded {len(sql_docs)} SQL documents")
+        if sql_docs:
+            documents.extend(sql_docs)
+            print(f"✅ Loaded {len(sql_docs)} SQL documents")
+        else:
+            print("⚠️ No SQL files processed (cache-only mode)")
         
-        # 3. Cache everything
-        await self._save_production_cache(documents)
+        # 3. Save cache if we have documents
+        if documents:
+            await self._save_production_cache(documents)
+            print("💾 Cache saved for future deployments")
         
         total_time = time.time() - start_time
         print(f"🎯 Total documents: {len(documents)} in {total_time:.2f} seconds")
+        
+        # In Railway deployment, documents might be low if sql_chunks is missing
+        if len(documents) < 1000:
+            print("⚠️ Low document count detected - likely running in cache-only mode")
+            
         return documents
     
     async def _load_all_references(self) -> List[ProductionDocument]:
@@ -226,50 +239,62 @@ class FullProductionProcessor:
         return documents
     
     async def _process_all_sql_files(self) -> List[ProductionDocument]:
-        """Process ALL SQL files with parallel processing"""
+        """Process ALL SQL files with parallel processing (or return empty if directory not found)"""
         documents = []
         
-        # Get ALL SQL files
-        sql_files = [f for f in os.listdir(self.sql_chunks_dir) if f.endswith('.sql')]
-        total_files = len(sql_files)
-        print(f"📊 Processing ALL {total_files} SQL files...")
+        # Check if sql_chunks directory exists (might not exist in Railway deployment)
+        if not os.path.exists(self.sql_chunks_dir):
+            print(f"⚠️ SQL chunks directory not found: {self.sql_chunks_dir}")
+            print("🏭 Running in cache-only mode (Railway deployment)")
+            return []
         
-        # Process in parallel batches
-        processed = 0
-        
-        # Use ThreadPoolExecutor for I/O bound operations
-        with ThreadPoolExecutor(max_workers=4) as executor:
-            # Process in batches for memory efficiency
-            for i in range(0, total_files, self.batch_size):
-                batch = sql_files[i:i + self.batch_size]
-                
-                # Submit batch to thread pool
-                futures = []
-                for filename in batch:
-                    future = executor.submit(self._process_single_sql_file, filename)
-                    futures.append(future)
-                
-                # Collect results
-                batch_docs = []
-                for future in futures:
-                    try:
-                        file_docs = future.result(timeout=30)  # 30 second timeout per file
-                        batch_docs.extend(file_docs)
-                    except Exception as e:
-                        pass  # Skip problematic files
-                
-                documents.extend(batch_docs)
-                processed += len(batch)
-                
-                # Progress reporting
-                if processed % 1000 == 0 or processed == total_files:
-                    percentage = (processed / total_files) * 100
-                    print(f"  📈 Progress: {processed}/{total_files} ({percentage:.1f}%) - {len(batch_docs)} docs in batch")
-                
-                # Small delay to prevent overwhelming the system
-                await asyncio.sleep(0.01)
-        
-        return documents
+        try:
+            # Get ALL SQL files
+            sql_files = [f for f in os.listdir(self.sql_chunks_dir) if f.endswith('.sql')]
+            total_files = len(sql_files)
+            print(f"📊 Processing ALL {total_files} SQL files...")
+            
+            # Process in parallel batches
+            processed = 0
+            
+            # Use ThreadPoolExecutor for I/O bound operations
+            with ThreadPoolExecutor(max_workers=4) as executor:
+                # Process in batches for memory efficiency
+                for i in range(0, total_files, self.batch_size):
+                    batch = sql_files[i:i + self.batch_size]
+                    
+                    # Submit batch to thread pool
+                    futures = []
+                    for filename in batch:
+                        future = executor.submit(self._process_single_sql_file, filename)
+                        futures.append(future)
+                    
+                    # Collect results
+                    batch_docs = []
+                    for future in futures:
+                        try:
+                            file_docs = future.result(timeout=30)  # 30 second timeout per file
+                            batch_docs.extend(file_docs)
+                        except Exception as e:
+                            pass  # Skip problematic files
+                    
+                    documents.extend(batch_docs)
+                    processed += len(batch)
+                    
+                    # Progress reporting
+                    if processed % 1000 == 0 or processed == total_files:
+                        percentage = (processed / total_files) * 100
+                        print(f"  📈 Progress: {processed}/{total_files} ({percentage:.1f}%) - {len(batch_docs)} docs in batch")
+                    
+                    # Small delay to prevent overwhelming the system
+                    await asyncio.sleep(0.01)
+            
+            return documents
+            
+        except Exception as e:
+            print(f"❌ Error processing SQL files: {e}")
+            print("🏭 Continuing with cache-only mode...")
+            return []
     
     def _process_single_sql_file(self, filename: str) -> List[ProductionDocument]:
         """Process a single SQL file (called by thread pool)"""
