@@ -1,0 +1,10 @@
+{
+  "build": {
+    "buildCommand": "pip install --no-cache-dir -r backend/requirements.txt"
+  },
+  "deploy": {
+    "startCommand": "python main.py",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 30
+  }
+}
