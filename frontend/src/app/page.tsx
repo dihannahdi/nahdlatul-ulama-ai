@@ -17,8 +17,30 @@ export default function Home() {
   useEffect(() => {
     // Load available methods
     apiService.getMethods().then(response => {
-      setMethods(response.methods);
-    }).catch(console.error);
+      if (response && response.methods && Array.isArray(response.methods)) {
+        setMethods(response.methods);
+      }
+    }).catch(error => {
+      console.error('Failed to load methods:', error);
+      // Set default methods if API fails
+      setMethods([
+        {
+          name: 'bayani',
+          description: 'Metode interpretasi teks berbasis dalil Al-Quran dan Hadits',
+          arabic: 'البياني'
+        },
+        {
+          name: 'istislahi',
+          description: 'Metode pertimbangan kemaslahatan untuk kebaikan umum',
+          arabic: 'الاستصلاحي'
+        },
+        {
+          name: 'taqrir',
+          description: 'Metode berdasarkan konsensus ulama',
+          arabic: 'التقريري'
+        }
+      ]);
+    });
 
     // Add welcome message
     setMessages([{
@@ -111,7 +133,7 @@ export default function Home() {
               Metode Istinbath:
             </label>
             <div className="flex gap-2 flex-wrap">
-              {methods.map((method) => (
+              {methods && methods.length > 0 && methods.map((method) => (
                 <button
                   key={method.name}
                   onClick={() => setSelectedMethod(method.name)}
