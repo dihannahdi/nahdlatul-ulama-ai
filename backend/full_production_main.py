@@ -28,6 +28,104 @@ DEBUG_MODE = os.getenv("DEBUG", "false").lower() == "true"
 # Lightweight imports
 from pydantic import BaseModel
 
+# Pydantic models (copied to avoid import issues)
+class QuestionRequest(BaseModel):
+    question: str
+    method: str = "bayani"
+    context: str = ""
+
+class AnswerResponse(BaseModel):
+    answer: str
+    sources: List[Dict[str, Any]]
+    method_used: str
+
+class SearchRequest(BaseModel):
+    query: str
+    limit: int = 5
+
+class FastGroqClient:
+    """Production Groq LLM client"""
+    
+    def __init__(self):
+        self.client = None
+        self.api_key = None
+        
+    async def initialize(self):
+        """Initialize Groq client"""
+        try:
+            import groq
+            self.api_key = os.getenv("GROQ_API_KEY")
+            if self.api_key:
+                self.client = groq.Groq(api_key=self.api_key)
+                print("✅ Groq LLM client initialized")
+            else:
+                print("⚠️ GROQ_API_KEY not found, LLM responses will be limited")
+                self.client = None
+        except ImportError:
+            print("⚠️ Groq library not available")
+            self.client = None
+    
+    async def generate_response(self, question: str, context: str = "") -> str:
+        """Generate response using Groq"""
+        
+        if not self.client:
+            return f"""Based on the Nahdlatul Ulama methodology and available sources:
+
+{question}
+
+Answer: The question relates to Islamic jurisprudence according to Nahdlatul Ulama principles. Based on the context provided, this would be analyzed using the established NU methodology which emphasizes moderate interpretation, consideration of local context (ma'ruf), and scholarly consensus.
+
+Note: Enhanced AI responses require API configuration. Current response is based on methodology framework only."""
+
+        try:
+            # Create systematic prompt
+            system_prompt = """You are an expert in Nahdlatul Ulama (NU) Islamic jurisprudence methodology. 
+
+Key NU Principles:
+1. Tawasuth (Moderation) - Balanced interpretation avoiding extremes
+2. Tasamuh (Tolerance) - Respectful of different valid interpretations  
+3. I'tidal (Justice) - Fair and just rulings
+4. Ma'ruf (Local context consideration) - Contextual application
+
+Methodology:
+- Bayani: Text-based reasoning using Quran and Hadith
+- Qiyasi: Analogical reasoning for new situations
+- Istishlahi: Considering public interest (maslaha)
+- Maqashidi: Focusing on higher objectives of Islamic law
+
+Provide balanced, scholarly responses that reflect NU's moderate approach."""
+
+            user_prompt = f"""Question: {question}
+
+Context from NU sources:
+{context}
+
+Please provide a comprehensive answer following NU methodology, explaining the reasoning process and citing relevant principles."""
+
+            # Call Groq API
+            response = self.client.chat.completions.create(
+                model="llama-3.3-70b-versatile",  # Fast model
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                temperature=0.1,  # Low temperature for consistency
+                max_tokens=800,
+                top_p=0.9
+            )
+            
+            return response.choices[0].message.content or "No response generated"
+            
+        except Exception as e:
+            print(f"⚠️ Groq API error: {e}")
+            return f"""Based on Nahdlatul Ulama methodology:
+
+Question: {question}
+
+Analysis: This question would be addressed through NU's established jurisprudential framework, considering both textual sources and contextual factors. The NU approach emphasizes balanced interpretation that serves the community's welfare while maintaining scholarly rigor.
+
+Note: Full AI analysis temporarily unavailable. Response based on methodological principles."""
+
 class ProductionDocument:
     """Production document class with optimizations"""
     def __init__(self, content: str, metadata: Dict[str, Any]):
@@ -532,6 +630,7 @@ class ProductionVectorStore:
 # Global instances
 production_processor = FullProductionProcessor()
 production_vector_store = ProductionVectorStore()
+llm_client = None  # Will be initialized in lifespan
 
 @asynccontextmanager
 async def production_lifespan(app: FastAPI):
@@ -557,7 +656,6 @@ async def production_lifespan(app: FastAPI):
         await production_vector_store.initialize_production(documents)
         
         # Initialize LLM
-        from ultra_fast_main import FastGroqClient
         llm_client = FastGroqClient()
         await llm_client.initialize()
         
@@ -596,8 +694,7 @@ production_app.add_middleware(
     allow_headers=["*"],
 )
 
-# Import request/response models
-from ultra_fast_main import QuestionRequest, AnswerResponse, SearchRequest
+# Import request/response models - using local definitions
 
 @production_app.get("/health")
 async def production_health():
@@ -658,8 +755,19 @@ async def production_ask(request: QuestionRequest):
         context = "\n\n".join(context_parts)
         
         # Generate response using LLM
-        from ultra_fast_main import llm_client
-        answer = await llm_client.generate_response(request.question, context)
+        if llm_client:
+            answer = await llm_client.generate_response(request.question, context)
+        else:
+            # Fallback response when LLM is not available
+            answer = f"""Based on Nahdlatul Ulama methodology and available sources:
+
+Question: {request.question}
+
+Context Analysis: {context[:200]}...
+
+Answer: This question would be addressed through NU's established jurisprudential framework, considering both textual sources and contextual factors. The NU approach emphasizes balanced interpretation that serves the community's welfare while maintaining scholarly rigor.
+
+Note: Full AI analysis temporarily unavailable. Response based on methodological principles and retrieved context."""
         
         return AnswerResponse(
             answer=answer,
