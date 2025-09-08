@@ -34,7 +34,7 @@ Thumbs.db
 .ipynb_checkpoints/
 *.ipynb
 
-# Cache
+# Cache - PKL files too large for GitHub, will process on Railway
 .cache/
 *.cache
 faiss_vectors/
