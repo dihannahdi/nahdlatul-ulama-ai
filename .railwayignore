@@ -1,0 +1,34 @@
+# Railway deployment ignore file
+# Exclude large cache files (let Railway build them)
+*.pkl
+backend/*.pkl
+
+# Exclude development files
+.git/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+.env.local
+.env.development
+.env.test
+
+# Node modules if any
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Keep essential deployment files and source data
+!railway.json
+!Procfile
+!Dockerfile
+!requirements.txt
+!main.py
+!backend/
+!sql_chunks/
+!references/

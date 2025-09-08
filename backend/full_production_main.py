@@ -150,6 +150,7 @@ class FullProductionProcessor:
     async def load_all_documents_production(self) -> List[ProductionDocument]:
         """Load ALL documents with production optimizations"""
         print("🏭 Production Mode: Processing ALL 15,673+ documents...")
+        print("🚂 Railway Deployment: Building embeddings from source files...")
         start_time = time.time()
         
         # Try to load from cache first (essential for Railway deployment)
@@ -157,10 +158,12 @@ class FullProductionProcessor:
             try:
                 cached_docs = await self._load_from_production_cache()
                 if cached_docs:
-                    print(f"🎯 Loaded {len(cached_docs)} documents from cache!")
+                    print(f"⚡ Loaded {len(cached_docs)} documents from Railway cache!")
                     return cached_docs
             except Exception as e:
-                print(f"Cache failed: {e}, rebuilding...")
+                print(f"Cache failed: {e}, rebuilding from source files...")
+        else:
+            print("🔄 No cache found, building embeddings from scratch (first Railway deployment)")
         
         documents = []
         
@@ -169,15 +172,17 @@ class FullProductionProcessor:
         ref_docs = await self._load_all_references()
         documents.extend(ref_docs)
         print(f"✅ Loaded {len(ref_docs)} reference documents")
+        print(f"✅ Loaded {len(ref_docs)} reference documents")
         
-        # 2. Process ALL SQL files efficiently (if available)
-        print("💾 Processing ALL SQL files...")
+        # 2. Process ALL SQL files efficiently (Railway will process all 15,673 files)
+        print("💾 Processing ALL SQL files on Railway...")
+        print("⏳ This may take 2-3 minutes on first deployment (building embeddings)...")
         sql_docs = await self._process_all_sql_files()
         if sql_docs:
             documents.extend(sql_docs)
-            print(f"✅ Loaded {len(sql_docs)} SQL documents")
+            print(f"✅ Loaded {len(sql_docs)} SQL documents from Railway filesystem")
         else:
-            print("⚠️ No SQL files processed (cache-only mode)")
+            print("⚠️ No SQL files processed (sql_chunks directory not available)")
         
         # 3. Save cache if we have documents
         if documents:
@@ -242,17 +247,18 @@ class FullProductionProcessor:
         """Process ALL SQL files with parallel processing (or return empty if directory not found)"""
         documents = []
         
-        # Check if sql_chunks directory exists (might not exist in Railway deployment)
+        # Check if sql_chunks directory exists (should exist in Railway with our new approach)
         if not os.path.exists(self.sql_chunks_dir):
             print(f"⚠️ SQL chunks directory not found: {self.sql_chunks_dir}")
-            print("🏭 Running in cache-only mode (Railway deployment)")
+            print("❌ Cannot process SQL files - directory missing from deployment")
             return []
         
         try:
             # Get ALL SQL files
             sql_files = [f for f in os.listdir(self.sql_chunks_dir) if f.endswith('.sql')]
             total_files = len(sql_files)
-            print(f"📊 Processing ALL {total_files} SQL files...")
+            print(f"� Railway: Found {total_files} SQL files to process")
+            print(f"⚡ Building embeddings with Model2Vec (ultra-fast)...")
             
             # Process in parallel batches
             processed = 0
